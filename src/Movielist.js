@@ -12,9 +12,9 @@ class Movielist extends Component {
     
     return (
       <div className="container">
-      <div className="jumbotron mt-4">
-        <h1 className="display-4">{this.props.header}</h1>
-      </div>
+      
+        <h1 className="display-4 text-center">{this.props.header}</h1>
+      
       <div className="album py-5 bg-light">
         <div className="container">
           <div className="row">

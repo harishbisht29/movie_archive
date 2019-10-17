@@ -25,7 +25,7 @@ class App extends Component {
         this.setState({
           data: json,
           search_parameter: this.state.search_parameter,
-          header:this.state.search_parameter
+header:this.state.search_parameter
         })
       })
   }
@@ -69,7 +69,7 @@ class App extends Component {
                                     </div>
                                     
                                     <div className="col">
-                                        <input onChange={event => this.setSearchField(event.target.value)} className="form-control form-control-lg form-control-borderless" type="text" placeholder="Search topics or keywords" />
+                                        <input onChange={event => this.setSearchField(event.target.value)} className="form-control form-control-lg form-control-borderless" type="text" placeholder="Enter Movie Name" />
                                     </div>
                                     
                                     <div className="col-auto">
