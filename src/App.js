@@ -73,7 +73,7 @@ header:this.state.search_parameter
                                     </div>
                                     
                                     <div className="col-auto">
-                                        <button className="btn btn-lg btn-success" onClick={this.handleClick}>Search</button>
+                                        <button className="btn btn-lg btn-success ml-2" onClick={this.handleClick}>Search</button>
                                     </div>
                                     
                                 </div>

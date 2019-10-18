@@ -15,7 +15,7 @@ class Movielist extends Component {
       
         <h1 className="display-4 text-center">{this.props.header}</h1>
       
-      <div className="album py-5 bg-light">
+      <div className="album py-5 ">
         <div className="container">
           <div className="row">
           
